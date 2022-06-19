@@ -1,0 +1,101 @@
+.wrapper {
+width: 1200px;
+margin: 0 auto;
+padding-bottom: 90px;  
+}
+
+/*Header*/
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+.language { /*ВОПРОС: в FIGMA белый цвет, но не рабоатет с ним*/
+  font-family: 'Tourney', cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  /*line-height: 0.8;*/
+  letter-spacing: 0.04em;
+  margin-right: 50px;
+}
+
+.path {
+  font-family: 'Staatliches', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  /*line-height: 1.2px;*/
+  letter-spacing: 0.03em;
+  color: #000000;
+
+}
+
+/*Main*/
+
+.chapter {
+  margin: 70px auto;
+}
+
+.chapter-label {
+  height: 48px;
+  display: flex;
+}
+
+.chapter-name {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  /*line-height: 1.2;*/
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.chapter-number {
+  height: 20px;
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  /*line-height: 1;*/
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.chapter p, .chapter li {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.7;
+  color: #000000;
+  margin: 40px 0;
+}
+
+br {
+  margin-bottom: 40px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: rgb(184, 184, 184);
+}
+
